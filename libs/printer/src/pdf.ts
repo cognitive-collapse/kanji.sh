@@ -37,7 +37,7 @@ async function generatePDF(
         const timeout = 180 * 1000;
         const browser = await puppeteer.launch({
             headless: 'new',
-            executablePath: "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+            executablePath: "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
             timeout: timeout,
             args: ['--disable-web-security']
         });
