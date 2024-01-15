@@ -2,10 +2,10 @@
 
 This fork is modified in the following ways:
 
--   Puppeteer uses Brave Browser instead of Google Chrome
--   Kanji PDF fits 10 smaller items instead of 5 larger items (changes yet to be pushed) (template.html and pdf.ts modified to make it happen)
--   Also small graphic inside the Kanji cells renders with CSS instead of .png graphic to solve some lines not printing on different printers. Also looks nicer
--   Updated WaniKani Kanji, not perfect since I don't have the data but a lot more accurate than the main branch
+-   ✅ Puppeteer uses Brave Browser instead of Google Chrome
+-   🔜 Kanji PDF fits 10 smaller items instead of 5 larger items (changes yet to be pushed) (template.html and pdf.ts modified to make it happen)
+-   🔜 Also small graphic inside the Kanji cells renders with CSS instead of .png graphic to solve some lines not printing on different printers. Also looks nicer
+-   ✅ Updated WaniKani Kanji, not perfect since I don't have the data but a lot more accurate than the main branch
 
 You may run it locally by installing Docker and running Supabase on it to get the PDFs. 
 
